@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Online movie store template</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link href="/ShopTemplates/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+	<div id="wrapper">
+		<div id="inner">
+			<div id="header">
+				<h1>
+					<img src="/ShopTemplates/images/logo.gif" width="519" height="63"
+						alt="Online Movie Store" />
+				</h1>
+				<div id="nav">
+					<a href="index.html">Home</a> | <a href=viewCart.html>view cart</a>
+					| <a href=${urlID}>help</a>
+				</div>
+				<!-- end nav -->
+				<a href=index.html><img src="/ShopTemplates/images/header_1.jpg"
+					width="744" height="145" alt="Harry Potter cd" /></a> <a
+					href=index.html><img src="/ShopTemplates/images/header_2.jpg"
+					width="744" height="48" alt="" /></a>
+			</div>
+			<!-- end header -->
+			<dl id="browse">
+				<div class="inner">
+
+					<div class="detailbox">
+						<br> <br> <br> <br>$!{wrongIn}<br> <br>
+						<br> <br> <br> <br> <br> <br> <img
+							src="/ShopTemplates/images/arrow.png" width="150" height="400"
+							alt="photo 1" />
+					</div>
+					<!-- end .leftbox -->
+					<div class="clear"></div>
+				</div>
+			</dl>
+			<div id="body">
+				<div class="inner">
+
+					<div class="detailbox">
+
+						<h3>Current items in your shopping cart</h3>
+						<br>
+						<!--  	<img src="/ShopTemplates/images/shopping_cart_racing.jpg"
+							width="50" height="50" alt="photo 1" class="left" /> -->
+						<p>$!{table1}
+						<p></p>
+
+						<p>
+							<b>Availability:</b> Usually ships within 24 hours to place order<br>
+							<b> <font size="2">please fill in the required fields
+									below before "submitting your order"</font></b>
+						</p>
+						<p class="readmore">
+						<div>
+							<a href="index.html"><img
+								src="/ShopTemplates/images/continue-shopping.gif.jpg"
+								width="150" height="70" alt="photo 1" align="left" /></a>
+						</div>
+						<br> <br> <br>
+						<div class="clear"></div>
+						<form action="checkOut.html" autocomplete="on" method="post">
+
+							<b>First name: </b><input type="text" required name="first_name"
+								placeholder="First name"><br> <br> <b>Last
+								name: </b><input type="text" name="last_name"
+								placeholder="Last name"><br> <br> <b>Address
+								1: </b><input type="text" name="address1"
+								placeholder="Street name & nr"><br> <br> <b>Address
+								2: </b><input type="text" name="address2" placeholder="Apartment nr"><br>
+							<br> <b>City: </b><input type="text" name="city"
+								placeholder="City, area"><br> <br> <b>Country:
+							</b><input type="text" name="country" placeholder="Sweden"><br>
+							<br> <b>Zip/Postal code: </b><input type="text" name="zip"
+								placeholder="433 33"><br> <br> <b>Cellphone.nr:
+							</b><input type="text" name="cell_phone"
+								placeholder="Ex. (0)733-44 22 23"><br> <br> <b>E-mail:
+							</b><input type="text" name="email" placeholder="JoeBlow@gmail.com"><br>
+							<br> <input type="image" name="submit" border="0"
+								src="/ShopTemplates/images/submit_order.png"
+								alt="Place your order">
+						</form>
+					</div>
+					<!-- end .leftbox -->
+					<div class="clear"></div>
+				</div>
+				<!-- end .inner -->
+			</div>
+			<!-- end body -->
+			<div class="clear"></div>
+			<div id="footer">
+				<a href='#TOP'>To top &nbsp;</a> Web design by <a
+					href="mailto:johanjohan.lund@gmail.com?Subject=Hello%20from%20the%20webshop">Johan
+					Lund</a> &nbsp;
+				<div id="footnav">
+					<a
+						href="mailto:johanjohan.lund@gmail.com??Subject=Hello%20from%20the%20webshop">
+						Contact</a> | <a href="index.html">Home</a>
+				</div>
+				<!-- end footnav -->
+			</div>
+			<!-- end footer -->
+		</div>
+		<!-- end inner -->
+	</div>
+	<!-- end wrapper -->
+
+</body>
+</html>
